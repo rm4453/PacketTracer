@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://github.com/rm4453/" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://media.githubusercontent.com/media/rm4453/PacketTracer/main/PacketTracer.zip" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Cisco Packet Tracer</name>
   <summary xml:lang="en">Packet Tracer Executable</summary>
+  <feed src="https://raw.githubusercontent.com/rm4453/PacketTracer/main/PacketTracer.xml" />
   <implementation arch="Windows-x86_64" version="8.2.1.118" id="sha256new_TTFM7IEBOM4LLIDFJE6YGDQZKWMIX4ZARISJTS2623S2SHDJSW2Q">
     <command name="run" path="bin\PacketTracer.exe" />
     <command name="lconvert" path="bin\lconvert.exe" />
@@ -19,7 +20,7 @@
       </runner>
     </command>
     <manifest-digest sha256new="TTFM7IEBOM4LLIDFJE6YGDQZKWMIX4ZARISJTS2623S2SHDJSW2Q" />
-    <archive href="https://github.com/rm4453/PacketTracer" size="304740482" type="application/zip" />
+    <archive href="https://media.githubusercontent.com/media/rm4453/PacketTracer/main/PacketTracer.zip" size="304740482" type="application/zip" />
   </implementation>
   <entry-point command="run" binary-name="PacketTracer" />
   <entry-point command="lconvert" binary-name="lconvert">
@@ -91,6 +92,6 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJkuKd5AAoJEPS6U4pV5qJy7kQH/1UVemL6ofMiEF+XBbdgswjdFadN7LQwfs3phjL6GmCfHHH9PVojLdWj3rzv4gww5wLl0ggFZ6xaLJE8emAq/qk6eXvG06hob/Rzzwg2XkhUXBgm2N7kdJDU1zU6lPGGWEIWQ5SuLseYZu8uuNP/sMTI7CCEBhAMcUzbKWOvJBgBi08xKFq3ju1Dq0uRsIYgfhDoeOAfctWuKQqXrJgBeFM/cI8cLQ2VasvvjkZV/gF3I5j+/iLP6Xfr8U2BgtjjO6TsC0l2Kj5qmeULjTvdZZ/r6PkdGwFAMNf6p1gsU8aa5ywdNHW4aTj8mBE9RANQrRg5YSDVGqJt7fv7aVZPjOc=
+iQEcBAABAgAGBQJkuMDiAAoJEPS6U4pV5qJyu7QH/Ryu6S53w6ny92vOEuk1GnTw0JJkuxNSifDfDrYfk8kXwoiFn7TBP1kH8BMfrRhLLWq8ZaD9nXnf9h/M/6iMP9Lc3eonbl+7Gby9JirT1vOuG1k1BQur5e+0y2GejbG1uCIUpWflV0DnZ4tWUG7CUdj+HyTLCQUGR43MBEb6XoPv+z1bbFkCcju/Oab42wIZEEfrKcAR77vcS4LqO8UeCzG7DkM2inIa31wbbKPucKvrbKRUVDhhLKh2eUzLdXfwx4knMMBFNQZ/gpzFpiwGLELLpPBt1FuOEdorw13qk/WOgbDCL1de3Dk5W2fbzBW6bEB4yt65902XnKpL1/R/NPs=
 
 -->
