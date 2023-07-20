@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://github.com/rm4453/" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Cisco Packet Tracer</name>
+  <summary xml:lang="en">Packet Tracer Executable</summary>
+  <implementation arch="Windows-x86_64" version="8.2.1.118" id="sha256new_TTFM7IEBOM4LLIDFJE6YGDQZKWMIX4ZARISJTS2623S2SHDJSW2Q">
+    <command name="run" path="bin\PacketTracer.exe" />
+    <command name="lconvert" path="bin\lconvert.exe" />
+    <command name="linguist" path="bin\linguist.exe" />
+    <command name="lrelease" path="bin\lrelease.exe" />
+    <command name="lupdate" path="bin\lupdate.exe" />
+    <command name="meta" path="bin\meta.exe" />
+    <command name="miniunz" path="bin\miniunz.exe" />
+    <command name="minizip" path="bin\minizip.exe" />
+    <command name="QtWebEngineProcess" path="bin\QtWebEngineProcess.exe" />
+    <command name="pt-cep-java-framework-8.1.0.0" path="help\default\ipc\pt-cep-java-framework-8.1.0.0.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <manifest-digest sha256new="TTFM7IEBOM4LLIDFJE6YGDQZKWMIX4ZARISJTS2623S2SHDJSW2Q" />
+    <archive href="https://github.com/rm4453/PacketTracer" size="304740482" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="PacketTracer" />
+  <entry-point command="lconvert" binary-name="lconvert">
+    <needs-terminal />
+    <name xml:lang="en">Qt5</name>
+    <summary xml:lang="en">Qt Translation File Converter</summary>
+  </entry-point>
+  <entry-point command="linguist" binary-name="linguist">
+    <name xml:lang="en">Qt5</name>
+    <summary xml:lang="en">Qt Linguist</summary>
+  </entry-point>
+  <entry-point command="lrelease" binary-name="lrelease">
+    <needs-terminal />
+    <name xml:lang="en">Qt5</name>
+    <summary xml:lang="en">Qt Translation File Compiler</summary>
+  </entry-point>
+  <entry-point command="lupdate" binary-name="lupdate">
+    <needs-terminal />
+    <name xml:lang="en">Qt5</name>
+    <summary xml:lang="en">Qt Translation File Update Tool</summary>
+  </entry-point>
+  <entry-point command="meta" binary-name="meta">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="miniunz" binary-name="miniunz">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="minizip" binary-name="minizip">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="QtWebEngineProcess" binary-name="QtWebEngineProcess">
+    <name xml:lang="en">Qt5</name>
+    <summary xml:lang="en">C++ Application Development Framework</summary>
+  </entry-point>
+  <entry-point command="pt-cep-java-framework-8.1.0.0" binary-name="pt-cep-java-framework-8.1.0.0">
+    <needs-terminal />
+    <name xml:lang="en">pt-cep-java-framework-8.1.0.0</name>
+  </entry-point>
+  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="PacketTracer8">
+      <description xml:lang="en">Cisco Packet Tracer</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pkt" />
+    </file-type>
+    <file-type id="PacketTracer8.Activity">
+      <description xml:lang="en">Cisco Packet Tracer</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pka" />
+    </file-type>
+    <file-type id="PacketTracer8.ActivitySequence">
+      <description xml:lang="en">Cisco Packet Tracer</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pks" />
+    </file-type>
+    <file-type id="PacketTracer8.ActivitySequencePackage">
+      <description xml:lang="en">Cisco Packet Tracer</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pksz" />
+    </file-type>
+    <file-type id="PacketTracer8.PKZ">
+      <description xml:lang="en">Cisco Packet Tracer</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pkz" />
+    </file-type>
+    <url-protocol id="pttp">
+      <description xml:lang="en">URL:pttp</description>
+      <verb name="open" args="-uri=&quot;%1&quot;" />
+    </url-protocol>
+  </capabilities>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJkuKd5AAoJEPS6U4pV5qJy7kQH/1UVemL6ofMiEF+XBbdgswjdFadN7LQwfs3phjL6GmCfHHH9PVojLdWj3rzv4gww5wLl0ggFZ6xaLJE8emAq/qk6eXvG06hob/Rzzwg2XkhUXBgm2N7kdJDU1zU6lPGGWEIWQ5SuLseYZu8uuNP/sMTI7CCEBhAMcUzbKWOvJBgBi08xKFq3ju1Dq0uRsIYgfhDoeOAfctWuKQqXrJgBeFM/cI8cLQ2VasvvjkZV/gF3I5j+/iLP6Xfr8U2BgtjjO6TsC0l2Kj5qmeULjTvdZZ/r6PkdGwFAMNf6p1gsU8aa5ywdNHW4aTj8mBE9RANQrRg5YSDVGqJt7fv7aVZPjOc=
+
+-->
