@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://media.githubusercontent.com/media/rm4453/PacketTracer/main/PacketTracer.zip" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/rm4453/PacketTracer/main/PacketTracer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Cisco Packet Tracer</name>
   <summary xml:lang="en">Packet Tracer Executable</summary>
   <feed src="https://raw.githubusercontent.com/rm4453/PacketTracer/main/PacketTracer.xml" />
@@ -92,6 +92,6 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJkuMDiAAoJEPS6U4pV5qJyu7QH/Ryu6S53w6ny92vOEuk1GnTw0JJkuxNSifDfDrYfk8kXwoiFn7TBP1kH8BMfrRhLLWq8ZaD9nXnf9h/M/6iMP9Lc3eonbl+7Gby9JirT1vOuG1k1BQur5e+0y2GejbG1uCIUpWflV0DnZ4tWUG7CUdj+HyTLCQUGR43MBEb6XoPv+z1bbFkCcju/Oab42wIZEEfrKcAR77vcS4LqO8UeCzG7DkM2inIa31wbbKPucKvrbKRUVDhhLKh2eUzLdXfwx4knMMBFNQZ/gpzFpiwGLELLpPBt1FuOEdorw13qk/WOgbDCL1de3Dk5W2fbzBW6bEB4yt65902XnKpL1/R/NPs=
+iQEcBAABAgAGBQJkuMK6AAoJEPS6U4pV5qJyjx0IANcGy5I6PLqLCwVS3X337FMESm0XaWGPlpC7RWHdCGK62H/r3bJkocVqXogfisR0qYyPuG7TPjd1yyR7o4LpCwezJDcx4Motk5YwJei1Jl6j5N/WRI/RtJ33OvKG4Hlh/m0lhso/nDwhfIVAGeVr40555gf4bfy4MqkXCf3N1lvldE1k2bRsA7tDODcWIynBadoy2NM3WR6AFLCcyRK/zxi4lAiVWKg8oS4qFde4+TIMZ5C2vY17l/CFxbY/bQDKW9UI/Fy6Crb9MFB6oFEgmOifmlkYvVj0r1x1CmUVn0r/5lQEf7y5XjdCeeFBdwRigHUlxdQ34RnJ0jBAQbyZpRo=
 
 -->
